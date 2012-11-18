@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, OauthSample!</string>
+    <string name="app_name">声でつぶやくボイッター</string>
+    <string name="guide">
+		【使い方】
+		まずはTwitter認証をして下さい。
+		認証後、マイクのボタンを押し、携帯に向かってつぶやくとその内容がTwitterに自動投稿されます。
+		音声は日本語・英語の切り替えができますので、英語でTwitterにも投稿できます。
+		
+		【操作説明】
+		ボタン説明
+		「マイク」→このボタンを押して携帯に向かってつぶやいて下さい。
+		「言語」→日本語と英語に切り替えます。
+		「つぶやく」→文字を入力してつぶやきたい時に押して下さい。
+		・リツイート、返信→該当するつぶやきを長押ししたらボタンが表示されます。
+		・更新頻度設定・ログアウト→メニューボタンから操作して下さい。
+		        
+    </string>
+    
+	<string name="refresh_bt">更新 </string>
+	<string name="voice_bt">音声</string>
+	<string name="Twitter_bt">つぶやく</string>
+	<string name="changeLanguage_bt">言語</string>
+	<string name="login_bt">Twitterでログイン</string>
+	<string name="logout_bt">ログアウト</string>
+	<string name="guide_setting_bt">使い方</string>	
+	
+	<string name="freq_refresh">更新頻度</string>
+	
+	<string name="add_favorite">お気に入りに登録</string>
+	<string name="reply">返信</string>
+	<string name="retweet">リツイート</string>
+	<string name="cancel_retweet">削除</string>
+	
+	<string name="setting">設定</string>
+
+	<string name="way_to_tweet_title">つぶやき方</string>
+	<string name="way_to_tweet_directly">直接(推奨)</string> 
+	<string name="way_to_tweet_confirm">確認</string>	
+	<string name="way_to_tweet_directly_first_page">認識された言葉を確認画面を挟まずそのままつぶやく(推奨)</string> 
+	<string name="way_to_tweet_confirm_first_page">つぶやいた後、確認画面をはさむ</string>
+	
+	<string name="guide_simple"></string>
+	<string name="guide_setting">＊設定は後から変更できます</string>
+	
+	
+	<string name="change_language_to_jp">日本語へ切り替えました</string>
+	<string name="change_language_to_en">英語へ切り替えました</string>
+	
+	<string name="error">エラーが発生しました</string>
+	<string name="network_error">ネットワークに接続して下さい</string>
+	<string name="tweeted">つぶやき成功</string>
+	    
+	<string name="msgPleaseWaitWhileLoading">Please wait while Loading...</string>    
+    <string name="msgPleaseWaitWhileRefreshing">Please wait while Refreshing...</string>    
+    <string name="msgPleaseWaitWhileTwit">Please wait while Update...</string>    
+    
+    <!--  BluetoothChat -->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected</string>
+    <string name="title_not_connected">not connected</string>
+	<string name="title_getting_data">getting data...</string>    
+    
+    <string name="digest_data">--- digest packet data ---</string>
+	<string name="err_bluetooth_not_enabled">Bluetooth not enabled.</string>
+	<string name="title_paired_devices">Paired Devices</string>
+	<string name="title_other_devices">Other Available Devices</string>
+	<string name="button_scan">Scan for devices</string>
+	<string name="select_device">Select a device to connect</string>
+	<string name="none_found">No devices found</string>
+	<string name="none_paired">No devices have been paired</string>
+	<string name="scanning">Scanning for devices ...</string>
+
+	<string name="scan">Scan and Connect</string>
+	<string name="clear">Disconnect</string>
+	<string name="start">Start</string>
+	<string name="stop">Stop</string>
+	<string name="err_bluetooth_enable_to_connect">Unable to connect device</string>
+	<string name="raw_data">--- raw wave data ---</string>
+	
+</resources>

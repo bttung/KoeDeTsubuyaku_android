@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget27"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout android:id="@+id/widget32"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true">
+		<TableRow android:id="@+id/widget33" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal">
+			<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="TextView">
+			</TextView>
+		</TableRow>
+		<TableRow android:id="@+id/widget34" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_below="@+id/widget32"
+			android:layout_alignParentLeft="true">
+			<EditText android:id="@+id/tweet_edt" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="EditText"
+				android:textSize="18sp">
+			</EditText>
+		</TableRow>
+	</TableLayout>
+	<Button android:id="@+id/tweet_bt" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Tweet"
+		android:layout_below="@+id/widget32" android:layout_alignParentRight="true">
+	</Button>
+	<Button android:id="@+id/voiceRecog_bt" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Voice"
+		android:layout_below="@+id/tweet_bt" android:layout_alignParentRight="true">
+	</Button>
+	<Button android:id="@+id/testVoiceRecog_bt" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="testVoice"
+		android:layout_below="@+id/voiceRecog_bt" android:layout_alignParentRight="true">
+	</Button>	
+</RelativeLayout>

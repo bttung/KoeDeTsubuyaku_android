@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, OauthSample!</string>
+    <string name="app_name">Boitter</string>
+	
+	<string name="refresh_bt">Refresh</string>
+	<string name="voice_bt">Voice</string>
+	<string name="Twitter_bt">Tweet</string>
+	<string name="changeLanguage_bt">Language</string>
+	<string name="login_bt">Log In via Twitter</string>
+	<string name="logout_bt">Log Out</string>
+	<string name="guide_setting_bt">Usage</string>		
+	
+	<string name="freq_refresh">Cycle of Refresh</string>
+	
+	<string name="add_favorite">Favorite</string>
+	<string name="reply">Reply</string>
+	<string name="retweet">Retweet</string>
+	<string name="cancel_retweet">Delete</string>
+	
+	<string name="setting">setting</string>
+	
+	<string name="way_to_tweet_title">Way to tweet in tweet</string>
+	<string name="way_to_tweet_directly">directly(recommend)</string>
+	<string name="way_to_tweet_confirm">confirm</string>	
+	<string name="way_to_tweet_directly_first_page">Tweet directly (recommend) !!!</string> 
+	<string name="way_to_tweet_confirm_first_page">You can choose the candidate of voice recognition</string>	
+		
+	<string name="guide_simple"></string>
+	<string name="guide_setting">* You can change the way to tweet after Login to Twitter</string>
+	
+	<string name="change_language_to_jp">change to Japanese</string>
+	<string name="change_language_to_en">change to English</string>
+	
+	<string name="error">error</string>
+	<string name="network_error">network_error</string>
+	<string name="tweeted">tweeted</string>
+	    
+	<string name="msgPleaseWaitWhileLoading">Please wait while Loading...</string>    
+    <string name="msgPleaseWaitWhileRefreshing">Please wait while Refreshing...</string>    
+    <string name="msgPleaseWaitWhileTwit">Please wait while Update...</string>    
+    
+    <!--  BluetoothChat -->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected</string>
+    <string name="title_not_connected">not connected</string>
+	<string name="title_getting_data">getting data...</string>    
+    
+    <string name="digest_data">--- digest packet data ---</string>
+	<string name="err_bluetooth_not_enabled">Bluetooth not enabled.</string>
+	<string name="title_paired_devices">Paired Devices</string>
+	<string name="title_other_devices">Other Available Devices</string>
+	<string name="button_scan">Scan for devices</string>
+	<string name="select_device">Select a device to connect</string>
+	<string name="none_found">No devices found</string>
+	<string name="none_paired">No devices have been paired</string>
+	<string name="scanning">Scanning for devices ...</string>
+
+	<string name="scan">Scan and Connect</string>
+	<string name="clear">Disconnect</string>
+	<string name="start">Start</string>
+	<string name="stop">Stop</string>
+	<string name="err_bluetooth_enable_to_connect">Unable to connect device</string>
+	<string name="raw_data">--- raw wave data ---</string>  
+	  
+</resources>

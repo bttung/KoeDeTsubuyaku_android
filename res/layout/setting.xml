@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<!-- 
+	<TextView 
+		android:id="@+id/dummy001"
+		android:text="\n"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="12sp">
+	</TextView>
+	-->
+		
+	<!--  	
+	<TextView 
+		android:id="@+id/lang_tv" 
+		android:text="@string/changeLanguage_bt"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="36sp">
+	</TextView>
+	-->
+	
+	<TextView 
+		android:id="@+id/dummy005"
+		android:text="\n"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="12sp">
+	</TextView>
+	
+	<TextView 
+		android:id="@+id/guide_setting_tv"
+		android:text="@string/guide_setting_bt"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="36sp">
+	</TextView>		
+	
+	
+	<TextView 
+		android:id="@+id/dummy002"
+		android:text="\n"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="12sp">
+	</TextView>
+
+	<TextView 
+		android:id="@+id/freq_tv" 
+		android:text="@string/freq_refresh"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="36sp">
+	</TextView>
+
+	
+	<TextView 
+		android:id="@+id/dummy003"
+		android:text="\n"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="12sp">
+	</TextView>
+	
+	
+	<TextView 
+		android:id="@+id/way_to_tweet_tv" 
+		android:text="@string/way_to_tweet_title"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="36sp">
+	</TextView>
+
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<RadioGroup android:layout_height="wrap_content"
+			android:id="@+id/way_to_tweet_radioGroup" android:orientation="vertical"
+			android:layout_width="fill_parent">
+			<RadioButton android:layout_height="wrap_content"
+				android:layout_marginLeft="36px"
+				android:id="@+id/way_to_tweet_directly" android:layout_width="wrap_content"
+				android:text="@string/way_to_tweet_directly" android:textSize="24sp"
+				android:checked="true"></RadioButton>
+			<RadioButton android:layout_height="wrap_content"
+				android:layout_marginLeft="36px"
+				android:id="@+id/way_to_tweet_confirm" android:layout_width="wrap_content"
+				android:text="@string/way_to_tweet_confirm" android:textSize="24sp"></RadioButton>
+		</RadioGroup>
+	</LinearLayout>  		
+	
+	
+	<TextView 
+		android:id="@+id/dummy004"
+		android:text="\n"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="12sp">
+	</TextView>
+	
+	<TextView 
+		android:id="@+id/logout_tv"
+		android:text="@string/logout_bt"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content" 
+		android:textSize="36sp">
+	</TextView>
+	
+</LinearLayout>
